@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0
+}
+
+.navber {
+    width: 100%;
+    height: 110px;
+    background-color: #3b3235;
+
+}
+
+.nav-img {
+    width: 311px;
+    height: 100%;
+    display: inline-block;
+}
+
+.nav-img img{
+	width:300px;
+	height:100%;
+}
+
+.nav-div {
+    display: inline-block;
+    float: right;
+    color: white;
+    margin-top: 55px;
+    width: 738px;
+    height: 100%;
+}
+
+.nav-ul{
+	display:inline-block;
+}
+
+.nav-li {
+    display: inline-block;
+    margin-right: 72px;
+}
+
+.nav-li a{
+	text-decoration: none;
+    color: white;
+}
+
+.nav-li a:hover {
+	text-decoration:underline;
+}
+
+.nav-li a:active {
+	text-decoration:underline;
+}
+
+.footer{
+	width:100%;
+	height:360px;
+	background-color:#3b3235;
+}
+
+.info {
+    width: 86%;
+    height: 59%;
+    margin-left: 7%;
+    border-bottom: 2px solid #00000024;
+	background-color:#3b3235;
+}
+
+.big-box-a {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    margin-top: -55px;
+}
+
+.big-box-b{
+	display:inline-block;
+	width:49%;
+	height:100%;
+	margin-top: -55px;
+	float:right;
+}
+
+.small-box-a{
+	width:49%;
+	height:100%;
+	display:inline-block;
+}
+
+.small-box-b{
+	width:49%;
+	height:100%;
+	float:right;
+	display:inline-block;
+}
+
+.small-box-a h3 {
+    font-family: Questrial;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+	color:white;
+}
+
+.small-box-b h3 {
+    font-family: Questrial;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+	color:white;
+}
+
+.small-box-a p{
+	padding-top:40px;
+	font-family: Questrial;
+	color:white;
+}
+
+.small-box-b p{
+	padding-top:40px;
+	font-family: Questrial;
+	color:white;
+}
+
+.rights{
+	width: 86%;
+	height:40%;
+	margin-left:7%;
+}
+
+.copy{
+	margin-top:30px;
+
+}
+
+.f{
+	display:inline-block;
+	color:white;
+}
+
+.s{
+	float:right;
+	display:inline-block;
+	color:white;
+}
+
+.author {
+    margin-top: 30px;
+    font-family: Questrial;
+}
+
+.author p{
+	color:white;
+}

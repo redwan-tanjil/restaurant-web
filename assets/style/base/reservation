@@ -1,0 +1,5 @@
+.main-div{
+    width:100%;
+    height:600px;
+    background:url('https://images.pexels.com/photos/2745093/pexels-photo-2745093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}

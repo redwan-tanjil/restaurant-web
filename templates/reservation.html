@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+
+
+<div class="main-div">
+
+
+        <h2>reservation</h2>
+        <form class="detail" action="" method="post">{% csrf_token %}
+
+            <input class="text" type="text" placeholder="your name" name="name" required>
+            <input  class="email2" type="email" placeholder="enter your email" name="email" required>
+            <input class="number" type="text" placeholder="enter your number" name="num" required>
+            <input class="number" type="text" placeholder="number of guest" name="guest" required>
+            <input class="text" type="text" placeholder="dd/mm/yy" name="date" required>
+            <input class="text" type="text" placeholder="time" name="time" required>
+            <input class="submit" type="submit" value="reserve">
+
+        </form>
+
+
+
+</div>
+
+
+{% endblock %}
+

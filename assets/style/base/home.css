@@ -1,0 +1,212 @@
+
+.image{
+	height:510px;
+	width:100%;
+}
+
+.pass {
+    color: white;
+    padding-top: 130px;
+    width: 100%;
+    height: 150px;
+    padding-left: 23%;
+    font-size: 65px;
+    font-family: cursive;
+	position:relative;
+}
+
+.map{
+	width:99.3%;
+	height:400px;
+	border:4px solid #3b3235;
+}
+
+.imge {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.ttt{
+    background:linear-gradient(#00000060,#00000060),linear-gradient(#00000060,#00000060),url('https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:900px;
+    color:black;
+}
+
+.book-table{
+    padding-left:500px;
+    position:relative;
+}
+
+.button-a {
+    position: relative;
+    margin-left: 600;
+    width: 150px;
+    height: 50;
+    background-color: #3b3235;
+    color: white;
+    border: 2px solid white;
+}
+
+.button-a a {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.massage{
+    width:100%;
+    height:100%;
+    color:white;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    font-size: 21;
+    font-family: cursive;
+}
+
+.head {
+    color: white;
+    padding-top: 150;
+    text-align: center;
+    font-size: 75;
+    padding-bottom: 70;
+    font-family: fantasy;
+}
+
+.button-b {
+    position: relative;
+    margin-left: 575;
+    width: 200px;
+    height: 50;
+    background-color: #3b3235;
+    color: white;
+    border: 2px solid white;
+    margin-top: 50;
+}
+
+.button-b a {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.galary{
+    background:linear-gradient(#00000040,#00000040),linear-gradient(#00000040,#00000040),url('https://as1.ftcdn.net/jpg/02/60/12/88/500_F_260128861_Q2ttKHoVw2VrmvItxyCVBnEyM1852MoJ.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:450px;
+}
+
+.photos-a{
+    width:67%;
+    height:300px;
+    display: inline-block;
+}
+
+.photos-b {
+    width: 33%;
+    height: 300px;
+    float: right;
+    display: inline-block;
+}
+
+.img-a {
+    width: 45%;
+    padding-left: 4%;
+    height: 300px;
+    padding-top: 75;
+}
+
+.img-b{
+    width: 90%;
+    padding-left: 2%;
+    height: 300px;
+    padding-top: 75;
+}
+
+.big-pic{
+    width:100%;
+    height:575px;
+}
+
+.big-pic img{
+    width:100%;
+    height:100%;
+}
+
+.back-pic{
+    width:100%;
+    height:700px;
+    background:linear-gradient(#00000030,#00000030),linear-gradient(#00000030,#00000030),url('https://images.pexels.com/photos/2789328/pexels-photo-2789328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size:cover;
+    repeat:no-repeat;
+}
+
+.p-one {
+    color: white;
+    text-align: center;
+    font-size: 100;
+    font-family: serif;
+    padding-top: 151px;
+}
+
+.p-tow {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-family: serif;
+    padding-top: 14px;
+}
+
+.subs {
+    padding-top: 148px;
+    width: 600;
+    padding-left: 36%;
+}
+
+.from{
+    width:100%;
+    height:100%;
+}
+
+.email {
+    width: 400px;
+    padding: 10px;
+    border: 4px solid #aaa;
+    border-radius: 4px;
+    margin-left: 413px;
+    margin-top: 100;
+}
+
+.email:focus{
+    border-color:dodgerblue;
+}
+
+.sub{
+    padding: 10px;
+    background-color: red;
+    width: 120;
+    border: 4px solid #aaa;
+    border-radius: 4px;
+    color: white;
+    font-family: arial;
+}
+
+.sub:hover{
+    border-color:dodgerblue;
+}
+

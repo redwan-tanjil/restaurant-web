@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% load static %}
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static 'style/base/about.css' %}" type="text/css">
+
+    <title>{{title}}</title>
+
+</head>
+<body>
+
+{% block content %}
+
+<div class="ttt">
+    <div class="massage">
+
+        <h1 class="head">Exquisite cuisine<br>
+            in a beautiful<br>
+            and secluded setting</h1><br>
+        <P class="para">
+            Located in the exclusive area of Hadley Wood in Hertfordshire,<br>
+            with its stylish and inviting décor, high quality and flavourful cuisine,<br>
+            expertly sourced wines and scrumptious desserts, Thymari really offers a memorable dining experience.<br>
+            <br>
+            <br>
+            <br>
+
+            Whether you’re after a quick, mid-week dinner, Friday night cocktails or Sunday lunch<br>
+            our diverse menus and relaxed atmosphere make this the perfect choice.
+        </P>
+        <div class="button-b"><a class="book-table" href="">Explore our menu</a></div>
+    </div>
+</div>
+
+{% endblock %}
+
+</body>
+
+</html>

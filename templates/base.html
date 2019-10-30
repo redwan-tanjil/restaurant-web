@@ -1,0 +1,114 @@
+{% load static %}
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static 'style/base/base.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/home.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/reservation.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/about.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/contact.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/subscribe.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/menu.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'style/base/ita.css' %}" type="text/css">
+
+
+    <title>{{title}}</title>
+
+</head>
+<body>
+<nav class='navber'>
+
+    <div class='nav-img'>
+
+        <img src="{% static 'images/base/logo.jpg' %}" alt="image not found">
+
+    </div>
+
+    <div class='nav-div'>
+
+        <ul class='nav-ul'>
+            <li class='nav-li'><a href="/">HOME</a></li>
+            <li class='nav-li'><a href="/about/">ABOUT US</a></li>
+            <li class='nav-li'><a href="/menu/">MENU</a></li>
+            <li class='nav-li'><a href="/contact/">CONTACT</a></li>
+            <li class='nav-li'><a href="/reservation/">BOOK A TABLE</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+{% block content %}
+
+{% endblock %}
+
+<footer class="footer">
+
+    <div class="info">
+
+
+        <div class="big-box-a">
+            <div class="small-box-a">
+
+                <h3>contact</h3>
+
+                <p>Enquiries: info@korto.co.uk<br>126 Alexandra Park Road<br>Muswell Hill, London,<br>N10 2AH</p>
+
+            </div>
+
+
+            <div class="small-box-b">
+
+                <h3>RESERVATIONS</h3>
+
+                <p>Tel: 0208 292 5841<br>Book your table here.</p>
+
+            </div>
+        </div>
+
+
+        <div class="big-box-b">
+            <div class="small-box-a">
+
+                <h3>OPENING HOURS</h3>
+
+                <p>Mon to Tue: 8 am - 5 pm<br>Wed to Sat: 8 am - 10 pm<br>Sun: 9 am - 5 pm</p>
+
+            </div>
+
+
+            <div class="small-box-b">
+
+                <h3>connect</h3>
+
+                <p>Tel: 01955112624<br>facebook:redwan tanjil<br></p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="rights">
+        <div class="copy">
+            <p class="f">Copyright © 2019 REDWAN TANJIL</p>
+            <p class="s">Website Design by REDWAN TANJIL</p>
+        </div>
+
+        <div class="author">
+            <p>Mediterranean Restaurant Muswell Hill | Mediterranean Restaurant Alexandra Palace |<br>Breakfast Lunch
+                Dinner Muswell Hill</p>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
+

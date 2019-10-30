@@ -1,0 +1,72 @@
+.main-div {
+    width: 100%;
+    height: 600px;
+    background:linear-gradient(#00000030,#00000030),linear-gradient(#00000030,#00000030), url(https://images.pexels.com/photos/2745093/pexels-photo-2745093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: round;
+}
+
+.detail {
+    width: 600;
+    height: 100%;
+    display:inline-block;
+    padding-left: 400;
+}
+
+.text {
+    padding: 10px;
+    width: 80%;
+    border: 5px solid #aaa;
+    border-radius: 6px;
+    border-color: #ffffff00;
+    margin: 10px;
+}
+
+.email2{
+    padding: 10px;
+    width: 80%;
+    border: 5px solid #aaa;
+    border-radius: 6px;
+    border-color: #ffffff00;
+    margin: 10px;
+}
+
+.number{
+    padding: 10px;
+    width: 80%;
+    border: 5px solid #aaa;
+    border-radius: 6px;
+    border-color: #ffffff00;
+    margin: 10px;
+}
+
+.submit{
+    padding: 10px;
+    width: 33%;
+    border: 5px solid #aaa;
+    border-radius: 6px;
+    border-color: #ffffff00;
+    margin: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-left: 331px;
+    padding-top: 30;
+}
+
+.email2:focus{
+    border:5px solid dodgerblue;
+}
+
+.text:focus{
+    border:5px solid dodgerblue;
+}
+
+.number:focus{
+    border:5px solid dodgerblue;
+}
+
+.submit:hover{
+    border:5px solid dodgerblue;
+}
