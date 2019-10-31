@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="image">
+
+
+    <img class="imge" src="{% static 'images/base/resturanta.jpg' %}"/>
+    <p class="pass">IT'S ALL GREEK TO ME</p>
+    <div class="button-a"><a class="book-table" href="reservation/">BOOK A TABLE</a></div>
+
+</div>
+
+<div class="ttt">
+    <div class="massage">
+
+        <h1 class="head">Exquisite cuisine<br>
+            in a beautiful<br>
+            and secluded setting</h1><br>
+        <P class="para">
+            Located in the exclusive area of Hadley Wood in Hertfordshire,<br>
+            with its stylish and inviting décor, high quality and flavourful cuisine,<br>
+            expertly sourced wines and scrumptious desserts, Thymari really offers a memorable dining experience.<br>
+            <br>
+            <br>
+            <br>
+
+            Whether you’re after a quick, mid-week dinner, Friday night cocktails or Sunday lunch<br>
+            our diverse menus and relaxed atmosphere make this the perfect choice.
+        </P>
+        <div class="button-b"><a class="book-table" href="menu/">Explore our menu</a></div>
+    </div>
+</div>
+
+
+<div class="big-pic">
+    <img class="imge" src="{% static 'images/base/big-pic.jpg' %}"/>
+</div>
+
+
+<div class="galary">
+
+    <div class="photos-a">
+        <img class="img-a" src="{% static 'images/base/bbq.jpg' %}">
+        <img class="img-a" src="{% static 'images/base/dish.jpg' %}">
+    </div>
+
+    <div class="photos-b">
+        <img class="img-b" src="{% static 'images/base/dishb.jpg' %}">
+    </div>
+
+</div>
+
+
+<form class="back-pic" action="" method="post" >{% csrf_token %}
+
+    <p class="p-one">Join the club</p>
+    <p class="p-tow">& GET UPDATES ON SPECIAL EVENTS</p>
+    <input class="email" type="email"  name="email" required>
+    <input class="sub" type="submit" value="SUBSCRIBE">
+
+</form>
+
+
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.337753398274!2d90.51467767334765!3d23.6890088969088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x16d28dd86631c783!2sDandy%20Restaurant%20%26%20party%20center!5e0!3m2!1sen!2sbd!4v1568183566324!5m2!1sen!2sbd"
+            width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+
+{% endblock %}
+
